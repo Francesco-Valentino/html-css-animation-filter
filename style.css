@@ -68,7 +68,8 @@
     filter: grayscale(1);
 }
 
-.ex-7-img{
+.ex-7-img,
+.ex-8-img{
     transition: 2s;
 }
 
