@@ -134,6 +134,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -149,4 +150,40 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: bounce-top 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bounce-bottom 2s linear;
+}
+
+@keyframes bounce-top{
+    0%{
+        left: 10%;        
+    }
+
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes bounce-bottom{
+    0%{
+        right: 20%;        
+    }
+
+    50%{
+        right: calc(100% - 60px);
+    }
+
+    100%{
+        right: 20%;
+    }
 }
