@@ -86,6 +86,13 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 5%;
+    width: 500px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
