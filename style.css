@@ -85,6 +85,7 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
 
 .ex-9-img:hover{
